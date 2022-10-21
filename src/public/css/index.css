@@ -1,0 +1,125 @@
+.Main{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.Main-hero {
+    background-image: url(../img/img-bg.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.Main-titles{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    text-align: center;
+    padding: 100px;
+    height: 400px;}
+
+.Main-h1{
+    background-color: var(--background-nav);
+    color: var(--color-nav);
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+    width: fit-content;
+}
+
+.Main-h3{
+    background-color: var(--color-hover);
+    color: #000;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    width: fit-content ;
+}
+
+/* FEATURES */
+.Main-feature {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/feature-bg.jpg);
+    background-color: var(--color-hover);
+    border-top: 10px solid white;
+    color: var(--background-nav);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -26px 79px -8px rgb(0 0 0 / 58%);
+}
+
+.Feature-boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+}
+
+.Feature-box{
+    padding: 20px;
+    margin: 40px 30px;
+    text-align: center;
+    border-bottom: 10px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    transition: all 1s ease;
+}
+.Box-i{
+    font-size: 3em;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.Box-h2{
+    text-align: center;
+    margin: 20px 0;
+    transition: all 1s ease;
+}
+.Box-p{
+    text-align: center;
+    width: 100%;
+    margin: 30px 0;
+    letter-spacing: 2px;
+}
+
+.Feature-box:hover{
+    cursor: pointer;
+    border-bottom: 10px solid #000;
+    border-radius: 20px;
+}
+
+.Feature-box:hover>.Box-h2{
+    letter-spacing: 2px;
+}
+
+
+@media (max-width: 615px){
+
+    .Main-titles{
+        padding: 20px;
+    }
+    
+    .Feature-boxes{
+        flex-flow: column nowrap;
+        margin: 30px 0;
+    }
+
+    .Feature-box{
+        width: 350px;
+        margin: 0 auto;
+    }
+}

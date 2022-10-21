@@ -1,0 +1,167 @@
+.Header-a,
+.Main-a,
+.Footer-a{
+    text-decoration: none;
+}
+
+/* NAVIGATION */
+.Header{
+    width: 100%;
+    height: auto;
+    background-color: var(--background-nav);
+    color: var(--color-nav);
+    padding: 30px 100px;
+}
+
+/* CONTENT HEADER */
+.Header-content{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+/* CONTACT HEADER*/
+.Header-contact{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.Contact-icon{
+    margin: 0 10px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.Contact-phone,
+.Contact-hours{
+    margin: 10px;
+    font-family: var(--font-nav);
+    letter-spacing: 2px;
+}
+
+.Contact-hours{
+    color: #858585;
+}
+
+/* LOGO */
+.Header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+.Header-logo img {
+    width: 210px;
+}
+
+/* NAV LINKS */
+.Header-nav{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Header-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.Header-li{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.Header-a{
+    color: var(--color-nav);
+    transition: all 0.5s ease;
+}
+
+.Header-a:hover{
+    color: var(--color-hover);
+    letter-spacing: 2px;
+}
+
+
+/* ADDRESS */
+.Header-address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.Address-icon{
+    margin: 0 10px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.Address-location{
+    margin: 10px;
+    color: #858585;
+    text-decoration: none;
+    font-family: var(--font-nav);
+    letter-spacing: 2px;
+    transition: all 0.5s ease;
+}
+
+.Address-icon:hover,
+.Address-location:hover{
+    color: var(--color-hover);
+    cursor: pointer;
+}
+
+
+@media (max-width: 900px){
+
+    .Header{
+        padding: 10px;
+    }
+
+    .Header-nav{
+        width: auto;
+    }
+}
+
+@media (max-width: 615px){
+    
+    .Header-content{
+        justify-content: center;
+        flex-flow: column nowrap;
+        padding: 40px;
+    }
+    
+    .Header-logo{
+        order: 1;
+        margin: 20px 0;
+    }
+
+    .Header-address{
+        order: 3;
+        margin: 20px 0;
+    }
+
+    .Header-contact{
+        order: 2;
+        margin: 20px 0;
+    }
+
+    .Header-ul{
+        margin: 10px 0;
+        justify-content: center;
+        flex-flow: column nowrap;    
+    }
+}

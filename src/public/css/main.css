@@ -1,0 +1,21 @@
+@import url('nav.css');
+@import url('index.css');
+@import url('footer.css');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@400;500;700&display=swap');
+
+:root{
+    --background-nav: #11122b;
+    --color-nav: #cbcbcb;
+    --color-hover: #cea135;
+    --font-nav: monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Body{
+    font-family: 'Roboto', sans-serif;
+}
