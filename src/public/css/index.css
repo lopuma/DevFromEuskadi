@@ -9,7 +9,7 @@
     padding: 0;
 }
 .Main-hero {
-    background-image: url(../img/img-bg.webp);
+    background-image: url(../img/fries-hero-bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,7 +57,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0px -26px 79px -8px rgb(0 0 0 / 58%);
+    box-shadow: 0 0 25px -4px rgba(0, 0, 0, 0.8) inset;
+    -webkit-box-shadow: 0 0 25px -4px rgba(0, 0, 0, 0.8) inset;
+    -moz-box-shadow: 0 0 25px -4px rgba(0, 0, 0, 0.8) inset;
 }
 
 .Feature-boxes{
@@ -78,6 +80,7 @@
     flex-flow: column nowrap;
     transition: all 1s ease;
 }
+
 .Box-i{
     font-size: 3em;
     font-weight: 900;
@@ -89,6 +92,7 @@
     margin: 20px 0;
     transition: all 1s ease;
 }
+
 .Box-p{
     text-align: center;
     width: 100%;
@@ -106,6 +110,16 @@
     letter-spacing: 2px;
 }
 
+.Main-map{
+    width: 100%;
+    margin: 0;
+}
+
+.Main-map iframe{
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
 
 @media (max-width: 615px){
 
