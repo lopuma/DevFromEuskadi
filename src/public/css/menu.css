@@ -8,3 +8,75 @@
     margin: 0;
     position: relative;
 }
+
+/* CONTAINER */
+.Menu-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin: 40px 0;
+}
+
+.Menu-section {
+    width: 1000px;
+    padding: 20px;
+}
+
+.Menu-img {
+    width: 350px;
+    margin: 20px 40px;
+    float: left;
+    border: 2px solid var(--color-hover);
+}
+
+.Menu-p {
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+/* SQUARES */
+.Menu-square {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    height: auto;
+}
+
+.isSimbolink {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.isSimbolink::after {
+    font-family: "Font Awesome 5 Free";
+    content: " \f0c1";
+    font-weight: 900;
+}
+
+.Square-a {
+    text-decoration: none;
+}
+
+.Square-ol,
+.Square-ul {
+    margin: 30px 0;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.Square-li {
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+
+@media all and (max-width: 950px) {
+    .Menu-square{
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+}
