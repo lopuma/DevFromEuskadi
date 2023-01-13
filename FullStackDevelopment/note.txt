@@ -1,0 +1,6 @@
+Diferencias entre Sass y Scss : " ``sas´´ que usa la indentación para separar bloques de código y el carácter nueva línea para separar las reglas. La sintaxis más reciente. ``scss´´, que usa el formato de bloques como CSS, usa llaves para denotar bloques de código y punto y coma para separar las líneas dentro de un bloque"
+
+--- METODOLOGIAS CSS 
+    - Bem : container__h1
+    - Suit : Container-h1
+    - Cube :[container][h1]

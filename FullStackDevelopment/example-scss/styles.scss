@@ -1,0 +1,50 @@
+$color-title : darkred;
+$color-content: #000;
+$background-color-nav : cadetblue;
+
+/* METODOLOGIA SUIT */
+.Header {
+    &-logo {
+        background-color: $background-color-nav;
+    }
+
+    &-menu {
+        background-color: $background-color-nav;
+    }
+
+    &-li {
+        background-color: antiquewhite;
+        color: brown;
+        border-radius: 5px;
+        letter-spacing: 2px;
+        font-size: 1em;
+        font-weight: 600;
+
+        &:hover {
+            cursor: pointer;
+            color: #000000;
+        }
+
+        &.isActive {
+            color: chocolate;
+        }
+    }
+}
+
+/* METODOLOGIA BEM */
+.container {
+    
+    &__title {}
+    &__h1 {
+        color: $color-title;
+    }    
+    &__contents {}
+    &__span {
+        padding: 1em;
+        color: $color-content;
+        background-color: aquamarine;
+    }
+    
+}
+
+
