@@ -1,0 +1,65 @@
+/* TODO VARIABLES */
+$textColorOne : rgba(116, 9, 255, 0.637);
+$backgroundColorOne : #237C95;
+$backgroundImage : "maserati";
+
+/* TODO MIXINS */
+@mixin changeColor($textColorOne) {
+    color: $textColorOne;
+    font-size: 1.2em;
+}
+
+@mixin mixinTwo() {
+    background-color: $backgroundColorOne;
+    width: 12.5em;
+    height: 12.5em;
+    margin: 0.625em;
+}
+
+/* TODO ALL */
+hr {
+    margin: 1em 0;
+    border: 1px solid rgb(255, 157, 127);
+}
+
+/* TODO -------------------- TASK ONE  ----------------------------- */
+.taskOne {
+    p {
+        color: $textColorOne;
+        font-size: 1.2em;
+    }
+}
+
+/* TODO -------------------- TASK TWO  ----------------------------- */
+.taskTwo {
+    p {
+        @include changeColor(green);
+    }
+}
+
+/* TODO -------------------- TASK THREE  ----------------------------- */
+.taskThree {
+    .nestedDiv {
+        p {
+            @include changeColor(red);
+        }
+    }
+}
+
+/* TODO -------------------- TASK THREE  ----------------------------- */
+.taskFour {
+    @include mixinTwo();
+}
+
+/* TODO -------------------- TASK THREE  ----------------------------- */
+.taskFive {
+    background-image: url('https://s3.amazonaws.com/bottega-devcamp/scss/cars/#{$backgroundImage}.jpg');
+    object-fit: fill;
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    margin: 2em 1em;
+    text-align: right;
+}

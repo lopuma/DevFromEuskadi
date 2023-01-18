@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins:wght@700&display=swap');
+
+/* TODO ALL */
+:root {
+    --border-radius: 5px;
+}
+hr {
+    margin: 1em 0;
+    border: 1px solid rgb(255, 157, 127);
+}
+/* TODO -------------------- GRID ONE  ----------------------------- */
+.gridOne {
+    background-color: #D3D3D3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.2em;
+    padding: 0 1em;
+    border-radius: var(--border-radius);
+}
+
+/* Habria usado el selector nth-child para establecer la segunda cadricula en color azul, luego he leido que era estilo en linea 
+.gridOne p:nth-child(2) {
+    color: blue;
+}
+*/
+
+/* TODO -------------------- GRID TWO  ----------------------------- */
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: .5em;
+    
+}
+
+.gridTwo > * {
+    padding: 0 1em;
+    text-align: center;
+    border-radius: var(--border-radius);
+}
+
+.gridTwo__subGrid1 {
+    background-color: yellow;
+}
+
+.gridTwo__subGrid2 {
+    background-color: blue;
+}
+
+.gridTwo__subGrid3 {
+    background-color: red;
+}
+
+/* TODO -------------------- GRID THRE  ----------------------------- */
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+
+.gridThree_subGrid1 {
+    background-color: cadetblue;
+    color: white;
+    font-size: 1.1em;
+    padding: 1em;
+    border-radius: var(--border-radius);
+}
+
+.gridThree_subGrid2 {
+    background-color:burlywood;
+}
+
+.gridThree_subGrid2 img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* TODO -------------------- GRID FOUR  ----------------------------- */
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+    border-radius: var(--border-radius);
+}
+
+#gridFour__subGrid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* TODO -------------------- GRID FIVE  ----------------------------- */
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: #D3D3D3;
+    border-radius: var(--border-radius);
+}
+
+
+#gridFive__subGrid2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1em;
+    padding: 1em;
+}
+
+#gridFive__subGrid2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: var(--border-radius);
+}
+
+/* TODO -------------------- GRID SIX  ----------------------------- */
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-radius: var(--border-radius);
+    width: 500px;
+    background-color: #D3D3D3;
+    padding: 1em;
+}
+
+.gridSix__subGrid2 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+footer {
+    margin: 2em 1em;
+    text-align: right;
+}
