@@ -1,0 +1,19 @@
+Task Three: Create a user story by referencing one of these websites
+    Twitter https://twitter.com/home?lang=en
+    Youtube https://www.youtube.com/
+    Facebook https://www.facebook.com/ 
+    Google https://www.google.com/ 
+
+La experiencia de usuario, basicamente a sido el poder tener un sitio, donde almacenar fotos, chatear, publicar noticias y darse a conocer, por eso cuando entra a una pagina web denominada red social, lo que intenta es encontrar un hambiente donde puedas, expresar tu opinion, hacer amigos, publicar tu dia a dia y tambien darse a conocer, donde tu puedas buscar informacion y motrar tus conocimiento asi las personas puedan ver de lo que eres capaz y puedan saber que ofrece, lo que pienso es que el usuario busca en estas paginas web una seguridad y experiancia propia, por eso muestro un resumen de cada app lo que busca un usuario.
+
+Twitter:
+Como estudiante, uso Twitter para mantenerme actualizado sobre los eventos actuales y para seguir a mis figuras públicas y organizaciones favoritas. Cada mañana antes de la clase, rápidamente reviso mi feed de Twitter para ver las últimas noticias y opiniones. También uso Twitter para compartir mis propios pensamientos e interactuar con otras personas en mi red.
+
+YouTube:
+Como profesional de SysAdmin, me encanta ver videos en YouTube para obtener inspiración y aprender nuevas tegnologias.
+
+Google:
+Como estudiante, dependo de Google para obtener información rápida y precisa para mis trabajos y proyectos. Todos los días, abro Google para buscar información sobre un tema específico, leer noticias actuales y descubrir nuevas ideas. Además, también uso Google Maps para encontrar lugares.
+
+Facebook:
+Como amante de las redes sociales, uso Facebook para mantenerme en contacto con amigos y familiares que viven en mi pais natal Ecuador. También uso Facebook para unirme a grupos en línea basados en mis intereses y participar en discusiones interesantes. Además, también uso Facebook para seguir a mis marcas y artistas favoritos y para enterarme de sus últimas noticias y actualizaciones.
